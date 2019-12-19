@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Heading from './components/Heading';
+import Author from './components/Author';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </header>
       <main>
         <Heading />
+        <Author />
       </main>
     </div>
   );
