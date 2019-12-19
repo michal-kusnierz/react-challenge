@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Heading from './components/Heading';
 import Author from './components/Author';
+import Date from './components/Date';
 import Test from './components/Test';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Heading />
         <Author />
+        <Date />
         <Test />
       </main>
     </div>
