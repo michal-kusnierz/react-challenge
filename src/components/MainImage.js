@@ -12,11 +12,18 @@ const MainImage = () => (
       if (err) return `Something went wrong: ${err.message}`;
 
       if (data);
-      const imageData = data.elements.mainImage.value;
-      const leadImage = imageData.leadImage.renditions.lead;
+      const imageData = data.elements.mainImage.value.leadImage;
+      const leadImage = imageData.renditions.lead;
       const imageUrl = leadImage.url;
+      const imageAsset = imageData.asset.fileName;
 
-      return <Image className="image" src={apiUrl + imageUrl}></Image>;
+      return (
+        <Image
+          className="image"
+          src={apiUrl + imageUrl}
+          alt={imageAsset}
+        ></Image>
+      );
     }}
   </Async>
 );
