@@ -1,10 +1,12 @@
-import React from 'react';
-import 'semantic-ui-css/semantic.min.css';
-import './App.css';
-import Heading from './components/Heading';
-import Author from './components/Author';
-import Date from './components/Date';
-import Test from './components/Test';
+import React from "react";
+import "semantic-ui-css/semantic.min.css";
+import "./App.css";
+import Heading from "./components/Heading";
+import Author from "./components/Author";
+import Date from "./components/Date";
+import Test from "./components/Test";
+import MainImage from "./components/MainImage";
+import ImageLabel from "./components/ImageLabel";
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
         <Heading />
         <Date />
         <Author />
+        <MainImage />
+        <ImageLabel />
+       
         <Test />
       </main>
     </div>
