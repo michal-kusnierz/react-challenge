@@ -9,7 +9,7 @@ import { fetchData } from "../services/fetchService";
 
 
 
-const Test = () => {
+const Test = props => {
   return (
     <div className="container">
       <Async promiseFn={fetchData}>
@@ -20,17 +20,7 @@ const Test = () => {
           if (data)
             return (
               <div>
-                <div>
-                  <h2>React Async - Random Users</h2>
-                </div>
-                {data.map(user=> (
-                  <div key={user.username} className="row">
-                    <div className="col-md-12">
-                      <p>{user.name}</p>
-                      <p>{user.email}</p>
-                    </div>
-                  </div>
-                ))}
+                  <h1>{JSON.parse(JSON.stringify(data.elements.heading.value))}</h1>
               </div>
             )
         }}
