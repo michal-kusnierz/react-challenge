@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Heading from './components/Heading';
 import Author from './components/Author';
+import Test from './components/Test';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Heading />
         <Author />
+        <Test />
       </main>
     </div>
   );
