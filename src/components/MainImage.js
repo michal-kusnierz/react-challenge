@@ -23,7 +23,7 @@ const MainImage = () => (
           src={apiUrl + imageUrl}
           alt={imageAsset}
           bordered
-          size='huge'
+          // size='huge'
           centered
         ></Image>
       );
