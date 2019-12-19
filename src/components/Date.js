@@ -6,7 +6,7 @@ import { Segment } from "semantic-ui-react";
 
 const Date = () => (
   
-  <Segment className="author">
+  <Segment className="date">
     <Async promiseFn={fetchData}>
       {({ data, err, isLoading }) => {
         if (isLoading) return "Loading...";
