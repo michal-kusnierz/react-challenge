@@ -4,7 +4,6 @@ import { fetchData } from "../services/fetchService";
 import { Header } from "semantic-ui-react";
 
 const Heading = () => (
-  <Header className="heading">
     <Async promiseFn={fetchData}>
       {({ data, err, isLoading }) => {
         if (isLoading) return "Loading...";
@@ -14,13 +13,12 @@ const Heading = () => (
         const headingData = data.elements.heading.value;
 
           return (
-            <div>
-              <h1>{headingData}</h1>
-            </div>
+            <Header className="heading" as='h1' color='blue' textAlign='center' block>
+              {headingData}
+            </Header>
           );
       }}
     </Async>
-  </Header>
 );
 
 export default Heading;
