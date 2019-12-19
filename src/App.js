@@ -14,8 +14,8 @@ function App() {
       </header>
       <main>
         <Heading />
-        <Author />
         <Date />
+        <Author />
         <Test />
       </main>
     </div>
