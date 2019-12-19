@@ -17,9 +17,9 @@ function App() {
       <main>
         <Heading />
         <Date />
-        <Author />
         <MainImage />
         <ImageLabel />
+        <Author />
         <Body />
       </main>
     </div>
