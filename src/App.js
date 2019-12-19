@@ -4,9 +4,9 @@ import "./App.css";
 import Heading from "./components/Heading";
 import Author from "./components/Author";
 import Date from "./components/Date";
-import Test from "./components/Test";
 import MainImage from "./components/MainImage";
 import ImageLabel from "./components/ImageLabel";
+import Body from "./components/Body";
 
 function App() {
   return (
@@ -20,8 +20,7 @@ function App() {
         <Author />
         <MainImage />
         <ImageLabel />
-       
-        <Test />
+        <Body />
       </main>
     </div>
   );
