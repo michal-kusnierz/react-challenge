@@ -4,7 +4,6 @@ import { fetchData } from "../services/fetchService";
 import { Segment } from "semantic-ui-react";
 
 const Author = () => (
-  <Segment className="author">
     <Async promiseFn={fetchData}>
       {({ data, err, isLoading }) => {
         if (isLoading) return "Loading...";
@@ -14,13 +13,12 @@ const Author = () => (
         const authorData = data.elements.author.value;
 
         return (
-          <div>
-            <p>by: {authorData}</p>
-          </div>
+          <Segment className="author">
+            by: {authorData}
+          </Segment>
         );
       }}
     </Async>
-  </Segment>
 );
 
 export default Author;
