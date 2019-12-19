@@ -9,7 +9,7 @@ import { fetchData } from "../services/fetchService";
 
 
 
-const Test = props => {
+const Test = () => {
   return (
     <div className="container">
       <Async promiseFn={fetchData}>
