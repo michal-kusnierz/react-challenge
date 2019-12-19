@@ -20,7 +20,7 @@ const Test = () => {
           if (data)
             return (
               <div>
-                  <h1>{JSON.parse(JSON.stringify(data.elements.heading.value))}</h1>
+                  {/* <h1>{JSON.parse(JSON.stringify(data.elements.heading.value))}</h1> */}
               </div>
             )
         }}
