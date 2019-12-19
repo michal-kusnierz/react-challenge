@@ -12,12 +12,12 @@ const Body = () => (
       if (data);
       const bodyObj = data.elements.body
       const bodyData = bodyObj.values;
-      console.log(bodyData);
+      console.log(bodyData[0]);
 
       return bodyData.map((elem,index) => (
         <div key={index} className="body-container">
           <Container className="body-paragraph" text={true}>
-            {bodyData}
+            {elem}
           </Container>
         </div>
       ));
