@@ -11,7 +11,7 @@ const Heading = () => (
         if (err) return `Something went wrong: ${err.message}`;
 
         if (data);
-        const headingData = JSON.parse(JSON.stringify(data.elements.heading.value));
+        const headingData = data.elements.heading.value;
 
           return (
             <div>

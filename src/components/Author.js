@@ -11,9 +11,7 @@ const Author = () => (
         if (err) return `Something went wrong: ${err.message}`;
 
         if (data);
-        const authorData = JSON.parse(
-          JSON.stringify(data.elements.author.value)
-        );
+        const authorData = data.elements.author.value;
 
         return (
           <div>
