@@ -1,9 +1,9 @@
 import React from "react";
 import Async from "react-async";
-import { fetchData, fetchImageData } from "../services/fetchService";
-import { Image } from "semantic-ui-react";
+import { fetchData } from "../services/fetchService";
+import { Label } from "semantic-ui-react";
 
-const ImageContent = () => (
+const ImageLabel = () => (
   <Async promiseFn={fetchData}>
     {({ data, err, isLoading }) => {
       if (isLoading) return "Loading...";
@@ -11,17 +11,14 @@ const ImageContent = () => (
 
       if (data);
       const imageData = data.elements.mainImage.value;
-      const leadImage = imageData.leadImage.renditions.lead;
       const leadImageCaption = imageData.leadImageCaption.value;
-      console.log(leadImageCaption);
-
       return (
-        <Image className="image">
+        <Label className="image-label" basic color='teal'>
           {leadImageCaption}
-        </Image>
+        </Label>
       );
     }}
   </Async>
 );
 
-export default ImageContent;
+export default ImageLabel;
