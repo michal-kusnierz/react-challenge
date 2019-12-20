@@ -23,3 +23,8 @@
 .body_paragraph {
   padding: 8px 0;
 }
+
+.loader_container{
+  background-color: #282c34;
+  min-height: 100vh;
+}
