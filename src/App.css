@@ -12,11 +12,11 @@
   color: white;
 }
 
-.body-paragraph{
-  padding: 8px 0;
-}
-
 .App_footer{
   min-height: 4vh;
   font-size: calc(5px + 1vmin);
+}
+
+.body_paragraph{
+  padding: 8px 0;
 }

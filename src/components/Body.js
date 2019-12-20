@@ -17,8 +17,8 @@ const Body = () => (
       console.log(bodyData[0]);
 
       return bodyData.map((elem,index) => (
-        <div key={index} className="body-container">
-          <Container className="body-paragraph"
+        <div key={index} className="body_container">
+          <Container className="body_paragraph"
           dangerouslySetInnerHTML={convertBodyContent(elem)} text textAlign='justified'>
           </Container>
         </div>

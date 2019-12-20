@@ -13,7 +13,7 @@ const Heading = () => (
         const headingData = data.elements.heading.value;
 
           return (
-            <Header className="heading" as='h1' color='blue' textAlign='center' block>
+            <Header className="heading" as='h1' color='teal' textAlign='center' block>
               {headingData}
             </Header>
           );
