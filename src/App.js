@@ -15,12 +15,12 @@ const App = () => {
         <p>a small React challenge</p>
       </header>
       <main className='App_main'>
+        <Heading />
+        <Date />
         <MainImage />
         <ImageLabel />
-        <Heading />
         <Author />
         <Body />
-        <Date />
       </main>
       <footer className='App_footer'>
         Copyright &copy;2019
