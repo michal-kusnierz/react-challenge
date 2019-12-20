@@ -16,11 +16,11 @@ const App = () => {
       </header>
       <main className='App_main'>
         <Heading />
-        <Date />
         <MainImage />
         <ImageLabel />
         <Author />
         <Body />
+        <Date />
       </main>
       <footer className='App_footer'>
         Copyright &copy;2019
