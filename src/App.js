@@ -8,7 +8,7 @@ import MainImage from "./components/MainImage";
 import ImageLabel from "./components/ImageLabel";
 import Body from "./components/Body";
 
-function App() {
+const App = () => {
   return (
     <div className="App_container">
       <header className="App_header">
