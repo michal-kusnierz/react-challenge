@@ -15,9 +15,9 @@ const App = () => {
         <p>a small React challenge</p>
       </header>
       <main className="App_main">
-        <Heading />
         <MainImage />
         <ImageLabel />
+        <Heading />
         <Author />
         <Body />
         <Date />
