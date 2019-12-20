@@ -14,7 +14,7 @@ const App = () => {
       <header className="App_header">
         <p>a small React challenge</p>
       </header>
-      <main className='App_main'>
+      <main className="App_main">
         <Heading />
         <MainImage />
         <ImageLabel />
@@ -22,11 +22,9 @@ const App = () => {
         <Body />
         <Date />
       </main>
-      <footer className='App_footer'>
-        Copyright &copy;2019
-      </footer>
+      <footer className="App_footer">Copyright &copy;2019</footer>
     </div>
   );
-}
+};
 
 export default App;

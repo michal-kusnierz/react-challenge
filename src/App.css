@@ -2,7 +2,8 @@
   text-align: end;
 }
 
-.App_header, .App_footer {
+.App_header,
+.App_footer {
   background-color: #282c34;
   min-height: 6vh;
   display: flex;
@@ -13,12 +14,12 @@
   color: white;
 }
 
-.App_footer{
+.App_footer {
   min-height: 4vh;
   font-size: calc(5px + 1vmin);
   margin-top: 24px;
 }
 
-.body_paragraph{
+.body_paragraph {
   padding: 8px 0;
 }

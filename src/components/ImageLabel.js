@@ -13,7 +13,7 @@ const ImageLabel = () => (
       const imageData = data.elements.mainImage.value;
       const leadImageCaption = imageData.leadImageCaption.value;
       return (
-        <Label className="image_label"  size='medium'>
+        <Label className="image_label" size="medium">
           {leadImageCaption}
         </Label>
       );

@@ -15,7 +15,7 @@ const Date = () => (
       const momentDate = moment(dateData).calendar();
 
       return (
-        <Segment className="date" compact size='tiny' >
+        <Segment className="date" compact size="tiny">
           written: {momentDate}
         </Segment>
       );

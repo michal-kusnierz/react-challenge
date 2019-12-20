@@ -13,7 +13,7 @@ const Author = () => (
       const authorData = data.elements.author.value;
 
       return (
-        <Segment className="author" size='small' compact>
+        <Segment className="author" size="small" compact>
           by: {authorData}
         </Segment>
       );
