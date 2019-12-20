@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App_container">
       <header className="App_header">
-        <p>first try to fetch data</p>
+        <p>a small React challenge</p>
       </header>
-      <main>
+      <main className='App_main'>
         <Heading />
         <Date />
         <MainImage />
@@ -22,6 +22,9 @@ function App() {
         <Author />
         <Body />
       </main>
+      <footer className='App_footer'>
+        Copyright &copy;2019
+      </footer>
     </div>
   );
 }
