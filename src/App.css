@@ -1,7 +1,3 @@
-.App_container {
-  text-align: end;
-}
-
 .App_header,
 .App_footer {
   background-color: #282c34;
@@ -27,4 +23,7 @@
 .loader_container{
   background-color: #282c34;
   min-height: 90vh;
+}
+.image_label{
+  text-align: end;
 }
